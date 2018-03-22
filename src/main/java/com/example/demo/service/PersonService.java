@@ -23,8 +23,4 @@ public class PersonService {
     LOGGER.info("I am doing some additional stuff!");
     return personRepository.save(person);
   }
-
-  public Person getPerson(Long personId) {
-    return personRepository.findOne(personId);
-  }
 }
